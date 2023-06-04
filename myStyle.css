@@ -1,0 +1,82 @@
+.ex1{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.ex2{
+    position: absolute;
+    top: 60px;
+    left: 80px;
+}
+
+table, td {
+    padding: 0px;
+    margin: 20px;
+    margin-bottom: 0px;
+    cellspacing: 0;
+    cellpadding: 0;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    border: none;
+}
+
+img {
+    display: block;
+}
+
+.infobox {
+    font-family: Georgia, serif;
+    background-color: darkslategray;
+    color: white;
+    margin: 20px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.pregame_infobox {
+
+    width: 220px;
+}
+
+.runtime_infobox {
+}
+
+.start_button {
+    border-color: white;
+    color: white;
+    background-color: darkslategray;
+    padding: 12px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.start_button:hover {
+    background: white;
+    color: darkslategray;
+}
+
+.dice_img {
+    width:50px;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.dice_img:hover {
+    background-color: none;
+}
+
+.dicebutton {
+    justify-content: center;
+    width: 100px;
+    height: 65px;
+    border-color: none;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
